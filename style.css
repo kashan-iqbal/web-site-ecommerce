@@ -30,8 +30,6 @@ body {
     justify-content: space-between;
     line-height: 60px;
 
-
-
 }
 
 .logo {
@@ -43,7 +41,8 @@ body {
     text-decoration: none;
     margin: 20px;
     text-transform: uppercase;
-
+    
+  
 
 
 }
@@ -289,4 +288,32 @@ padding: 0px 15px;
     
     min-width: 50px;
     margin-left: 40%;
+}
+
+@media(max-width:480px) {
+    .navbar ul a {
+        /* float: right; */
+        text-decoration: none;
+        margin: 9px;
+        text-transform: uppercase;
+        font-size: 13px;
+        padding: 0px;
+    }
+   h2{
+    margin: 15px 0px;
+   }
+
+   .box {
+    height: 500px;
+    width: 100%;
+    padding: 0px 10px;
+    border-radius: 6px;
+    margin: 20px 0px;
+    background-color: rgba(255, 205, 205, 0.671);
+    box-shadow: 3px 3px 15px 0px;
+    
+
+
+}
+    
 }
